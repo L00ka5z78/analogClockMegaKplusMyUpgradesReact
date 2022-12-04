@@ -12,7 +12,7 @@ Pros:
   2. Looks good.
   
 Cons:
-  1. I couldnt write it 100% on my own, had to get some help others.
+  1. I couldnt write it 100% on my own, had to get some help.
   2. I'm not fully understand some things/processes which are going on. 
   3. Github pages, doesn't show the app. Had to do sth wrong during deployment process.
   
