@@ -13,6 +13,12 @@ body {
   overflow: hidden;
 }
 
+.screen {
+  width: 300px;
+  height: 450px;
+  position: relative;
+}
+
 .clock {
   width: 300px;
   height: 300px;
@@ -131,7 +137,7 @@ body {
 }
 
 .clock .hand {
-  /* --roation:0; */
+  --roation: 0;
   position: absolute;
   bottom: 50%;
   left: 50%;
@@ -141,8 +147,8 @@ body {
   border-top-left-radius: 10px;
   background-color: black;
   transform-origin: bottom;
-  /* transform: translate(-50%) rotate(calc(var(--roation)* 1deg)); */
-  z-index: 10;
+  transform: translate(-50%) rotate(calc(var(--roation) * 1deg));
+  z-index: 1/0;
 }
 
 .clock .hand.second {
@@ -160,5 +166,27 @@ body {
   height: 30%;
   background-color: black;
 }
-.btn {
+
+.mode {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+
+.btn-large {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  margin-top: 0px;
+  margin-left: 0px;
+  background-color: rgb(23, 129, 11);
+  color: black;
+  width: 20%;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 5px;
 }
