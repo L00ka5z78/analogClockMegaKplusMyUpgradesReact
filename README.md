@@ -5,7 +5,6 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 Analogue clock application. Wrote on MegaK JS course as a digital one. Rebuilt to analogue.
-With help of some tutorials and notes. 
 
 Pros:
   1. Works well.
@@ -22,3 +21,4 @@ Cons:
   
   04.12.22.
   
+![Zrzut ekranu (23)](https://user-images.githubusercontent.com/110019733/218260990-cdca2725-b86f-4dff-8380-30567e7ea8ac.png)
